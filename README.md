@@ -17,7 +17,7 @@ Step 1: Start.
 
 Step 2: Accept a number from the user.
 
-Step 3: Check if the number is greater than zero.
+Step 3: Check if the number is greater than zero using relational operator
 
 Step 4: If true, print **"Positive number"**.
 
@@ -35,7 +35,7 @@ Step 1: Start.
 
 Step 2: Accept a number from the user.
 
-Step 3: Check if the number is divisible by 2.
+Step 3: Use the modulus operator (%) to check divisibility by 2.
 
 Step 4: If true, print **"Even number"**.
 
@@ -101,7 +101,7 @@ Step 1: Start.
 
 Step 2: Accept date from the user in dd/mm/yyyy format.
 
-Step 3: Separate day, month, and year using split
+Step 3: Separate day, month, and year using split() function.
 
 Step 4: Determine the number of days in the given month.
 
@@ -121,7 +121,7 @@ Step 1: Start.
 
 Step 2: Accept a character from the user.
 
-Step 3: Check if the character belongs to the set of vowels using in 
+Step 3 Check whether the character belongs to a set of vowels using the set() function
 
 Step 4: If true, print **"Vowel"**.
 
@@ -135,13 +135,33 @@ Step 6: Stop.
 
 Step 1: Start.
 
-Step 2: Accept basic salary from the user.
+Step 2: Accept Basic Salary using input().
 
-Step 3: Calculate HRA and DA based on salary conditions.
+Step 3: Calculate HRA and DA based on salary range:
 
-Step 4: Calculate gross salary.
+• Salary ≤ 10,000
 
-Step 5: Display the gross salary.
+→ HRA = 20% of Salary
+
+→ DA = 80% of Salary
+
+• Salary ≤ 20,000
+
+→ HRA = 25% of Salary
+
+→ DA = 90% of Salary
+
+• Salary > 20,000
+
+→ HRA = 30% of Salary
+
+→ DA = 95% of Salary
+
+Step 4: Calculate:
+
+Gross Salary = Basic Salary + HRA + DA
+
+Step 5: Display Gross Salary.
 
 Step 6: Stop.
 
@@ -151,13 +171,23 @@ Step 6: Stop.
 
 Step 1: Start.
 
-Step 2: Accept annual income from the user.
+Step 2: Accept Annual Income using input().
 
-Step 3: Apply income tax slabs using conditional statements.
+Step 3: Apply tax slab rules:
 
-Step 4: Calculate the total tax payable.
+• Income ≤ 2,50,000 → Tax = 0
 
-Step 5: Display the calculated tax.
+• Income ≤ 5,00,000 → Tax = 5% of Income
+
+• Income ≤ 10,00,000 → Tax = 20% of Income
+
+• Income > 10,00,000 → Tax = 30% of Income
+
+Step 4: Calculate:
+
+Tax = Income × Tax Rate / 100
+
+Step 5: Display Tax Amount.
 
 Step 6: Stop.
 
@@ -168,6 +198,34 @@ Step 6: Stop.
 Conditional statements in Python are used to make decisions based on conditions. The `if`, `elif`, and `else` statements allow the execution of specific blocks of code depending on whether a condition is true or false.
 
 In this experiment, various decision-making programs were implemented using relational and logical operators to handle real-life scenarios such as grading systems, salary calculation, date validation, and tax computation.
+
+---
+
+#### Functions and Logic Used
+
+
+Functions Used
+
+• input() – Used to accept data from the user.
+
+• split() – Used to separate date into day, month, and year.
+
+• set() – Used to store vowel characters for membership checking.
+
+---
+
+#### Logic and Operators Used
+
+• Conditional Statements (if, elif, else) – Used for decision making.
+
+• Relational Operators (>, <, >=, <=, ==, !=) – Used for comparison.
+
+• Modulus Operator (%) – Used to check divisibility (Even/Odd, Leap Year).
+
+• *Arithmetic Operators (+, -, , /) – Used for calculations like average, salary, and tax.
+
+• Nested Conditions – Used where multiple conditions are checked inside another condition.
+
 
 ---
 
