@@ -35,7 +35,7 @@ Step 1: Start.
 
 Step 2: Accept a number from the user.
 
-Step 3: Use the modulus operator (%) to check divisibility by 2.
+Step 3: Use the modulus operator (%2==0) to check divisibility by 2.
 
 Step 4: If true, print **"Even number"**.
 
@@ -57,7 +57,7 @@ Step 4: If the first number is greatest, print **"a is greater"**.
 
 Step 5: Else if the second number is greatest, print **"b is greater"**.
 
-Step 6: Otherwise, print **"c is greater"**.
+Step 6: Else print **"c is greater"**.
 
 Step 7: Stop.
 
@@ -69,7 +69,7 @@ Step 1: Start.
 
 Step 2: Accept marks of three subjects from the user.
 
-Step 3: Calculate the average of the marks.
+Step 3: Calculate the average of the marks.((a+b+c)/3)
 
 Step 4: Display the average marks.
 
@@ -101,9 +101,9 @@ Step 1: Start.
 
 Step 2: Accept date from the user in dd/mm/yyyy format.
 
-Step 3: Separate day, month, and year using split() function.
+Step 3: Separate day, month, and year using split() function.(dd,mm,yyyy=date.split('/'))
 
-Step 4: Determine the number of days in the given month.
+Step 4: Determine the number of days in the given month, and apply condition of leap year for feburary
 
 Step 5: Validate the entered date.
 
@@ -121,7 +121,7 @@ Step 1: Start.
 
 Step 2: Accept a character from the user.
 
-Step 3 Check whether the character belongs to a set of vowels using the set() function
+Step 3 Check whether the character belongs to a set of vowels using the set() function('aieouAEIOU')
 
 Step 4: If true, print **"Vowel"**.
 
